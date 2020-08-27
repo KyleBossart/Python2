@@ -1,0 +1,60 @@
+# Fitness for $10
+# Cancellation Script
+# This is a Python script for processing Cancellations.
+# Please use date format xx/xx/xx.
+# -*- coding: utf-8 -*-
+
+received = raw_input("When did the member fill out the cancel request?:")
+last_due = raw_input("When is the members last payment due?:")
+final_access = raw_input("When is the last day the member has access to the club?:")
+if len(received) and len(last_due) and len(final_access) > 0:
+    print "PER KYLE, CANCEL REQUEST RECEIVED AT CLUB ON %s MEMBER IS AWARE OF FINAL DRAFT ON %s CANCEL MEMBERSHIP EFFECTIVE %s NO EARLY CANCEL FEE. KB" % (
+    received, last_due, final_access)
+else:
+    print "Please enter valid dates."
+    
+    
+    
+    
+    
+    # Fitness for $10
+# Member Transfer Script
+
+# This is a Python script for processing Transfers.
+# When entering club and location info, please use the format [423x in City Name].
+# Club Numbers and Cities: 4234 - Prescott, 4235 - Prescott Valley, 4236 - Downtown Prescott.
+# -*- coding: utf-8 -*-
+
+name = raw_input("What is the members first and last name?:")
+agr_num = raw_input("What is the members agreement number?:")
+from_club = raw_input("What club number is the member transferring from and what city is it located in?:")
+to_club = raw_input("What club number is the member transferring to and what city is it located in?:")
+if len(name) and len(agr_num) and len(from_club) and len(to_club) > 0:
+    print """Please transfer member, %s(Primary) - %s, from club %s to club %s. We are also Datatrax clients.
+
+Kyle Bossart. 
+
+Fitness For $10, AZ
+
+928-xxx-xxxx""" % (name, agr_num, from_club, to_club)
+
+else:
+    print "Please enter valid information."
+    
+    
+    
+
+
+# PygLatin
+
+first = raw_input("Enter a word:")
+first = first.lower()
+second = first[0]
+third = first[1:]
+final = third + second + "ay"
+def pyg():
+	if len(first) > 0 and first.isalpha():
+		print final
+	else:
+		print "Please enter a valid word"
+pyg()
