@@ -1,6 +1,6 @@
 # Fitness for $10
 # Cancellation Script
-# This is a Python script for processing Cancellations.
+# This is a Python 2 script for processing Cancellations.
 # Please use date format xx/xx/xx.
 # -*- coding: utf-8 -*-
 
@@ -20,7 +20,7 @@ else:
     # Fitness for $10
 # Member Transfer Script
 
-# This is a Python script for processing Transfers.
+# This is a Python 2 script for processing Transfers.
 # When entering club and location info, please use the format [423x in City Name].
 # Club Numbers and Cities: 4234 - Prescott, 4235 - Prescott Valley, 4236 - Downtown Prescott.
 # -*- coding: utf-8 -*-
@@ -45,7 +45,7 @@ else:
     
 
 
-# PygLatin
+# PygLatin - Python 2
 
 first = raw_input("Enter a word:")
 first = first.lower()
