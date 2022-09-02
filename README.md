@@ -1,3 +1,0 @@
-# Python
-Simple Scripts
-
